@@ -235,4 +235,3 @@ paket-files/**
 
 # FAKE - F# Make
 .fake/
-Rdf.Vocabularies/*.cs

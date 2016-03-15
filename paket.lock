@@ -1,7 +1,6 @@
 NUGET
   remote: https://www.nuget.org/api/v2
   specs:
-    Clarius.TransformOnBuild (1.1.12)
     GitVersionTask (3.4.1)
 HTTP
   remote: https://gist.githubusercontent.com
