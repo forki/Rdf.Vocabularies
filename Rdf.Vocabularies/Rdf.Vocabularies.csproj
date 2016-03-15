@@ -41,6 +41,7 @@
     <None Include="DCTerms.owl" />
     <None Include="FOAF.owl" />
     <None Include="Opus.owl" />
+    <None Include="owl.owl" />
     <None Include="paket.references" />
     <None Include="paket.template" />
     <None Include="RDF.owl" />
@@ -76,6 +77,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Opus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Owl.cs">
+      <DependentUpon>Owl.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RDF.cs">
@@ -130,6 +136,11 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Opus.cs</LastGenOutput>
       <DependentUpon>Opus.owl</DependentUpon>
+    </Content>
+    <Content Include="Owl.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Owl.cs</LastGenOutput>
+      <DependentUpon>owl.owl</DependentUpon>
     </Content>
     <Content Include="RDF.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
