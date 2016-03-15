@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{A1582D21-98E2-4B73-97ED-5444FAE9116C}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
-		GitVersionConfig.yaml = GitVersionConfig.yaml
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
