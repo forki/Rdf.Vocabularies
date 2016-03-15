@@ -1,0 +1,14 @@
+﻿type project
+id Rdf.Vocabularies
+excludeddependencies
+  GitVersionTask
+iconUrl
+  http://www.w3.org/RDF/icons/rdf_w3c_icon.64
+tags
+  rdf semantic web
+copyright 
+  Copyright 2016 Tomasz Pluskiewicz
+licenseUrl
+  http://www.opensource.org/licenses/mit-license.php
+projectUrl
+  http://github.org/wikibus/Rdf.Dependencies

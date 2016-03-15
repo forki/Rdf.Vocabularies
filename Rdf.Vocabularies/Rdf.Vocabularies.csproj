@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57B7AAEC-8E6D-4594-8350-DB19953145CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vocab</RootNamespace>
+    <AssemblyName>Rdf.Vocabularies</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile328</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="Api.owl" />
+    <None Include="BIBO.owl" />
+    <None Include="DC.owl" />
+    <None Include="DCTerms.owl" />
+    <None Include="FOAF.owl" />
+    <None Include="Opus.owl" />
+    <None Include="paket.template" />
+    <None Include="RDF.owl" />
+    <None Include="RDFS.owl" />
+    <None Include="Schema.owl" />
+    <None Include="SIOC.owl" />
+    <None Include="SKOS.rdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Api.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bibo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Bibo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DC.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DCTerms.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCTerms.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FOAF.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FOAF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Opus.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Opus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RDF.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RDF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RDFS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RDFS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Schema.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Schema.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SIOC.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SIOC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SKOS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SKOS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Xsd.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Api.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Api.cs</LastGenOutput>
+      <DependentUpon>Api.owl</DependentUpon>
+    </Content>
+    <Content Include="Bibo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Bibo.cs</LastGenOutput>
+      <DependentUpon>BIBO.owl</DependentUpon>
+    </Content>
+    <Content Include="DC.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DC.cs</LastGenOutput>
+      <DependentUpon>DC.owl</DependentUpon>
+    </Content>
+    <Content Include="DCTerms.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DCTerms.cs</LastGenOutput>
+      <DependentUpon>DCTerms.owl</DependentUpon>
+    </Content>
+    <Content Include="FOAF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>FOAF.cs</LastGenOutput>
+      <DependentUpon>FOAF.owl</DependentUpon>
+    </Content>
+    <Content Include="Opus.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Opus.cs</LastGenOutput>
+      <DependentUpon>Opus.owl</DependentUpon>
+    </Content>
+    <Content Include="RDF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>RDF.cs</LastGenOutput>
+      <DependentUpon>RDF.owl</DependentUpon>
+    </Content>
+    <Content Include="RDFS.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>RDFS.cs</LastGenOutput>
+      <DependentUpon>RDFS.owl</DependentUpon>
+    </Content>
+    <Content Include="Schema.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Schema.cs</LastGenOutput>
+      <DependentUpon>Schema.owl</DependentUpon>
+    </Content>
+    <Content Include="SIOC.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SIOC.cs</LastGenOutput>
+      <DependentUpon>SIOC.owl</DependentUpon>
+    </Content>
+    <Content Include="SKOS.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SKOS.cs</LastGenOutput>
+      <DependentUpon>SKOS.rdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

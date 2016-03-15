@@ -1,0 +1,9 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Clarius.TransformOnBuild (1.1.12)
+    GitVersionTask (3.4.1)
+HTTP
+  remote: https://gist.githubusercontent.com
+  specs:
+    vocabulary.tt (/tpluscode/5d9c6983004c1c9ec91f/raw/2a5f0785c2686635f1b8ab21af1751d276d02727/vocabulary.tt)
