@@ -32,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Rdf.Vocabularies.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
@@ -74,6 +75,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FOAF.tt</DependentUpon>
     </Compile>
+    <Compile Include="NonGenerated\Lexvo.cs" />
+    <Compile Include="NonGenerated\Schema.cs" />
     <Compile Include="Opus.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -105,7 +108,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SKOS.tt</DependentUpon>
     </Compile>
-    <Compile Include="Xsd.cs" />
+    <Compile Include="NonGenerated\Xsd.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Api.tt">
