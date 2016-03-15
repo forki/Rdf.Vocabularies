@@ -36,7 +36,6 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <None Include="Api.owl" />
     <None Include="BIBO.owl" />
     <None Include="DC.owl" />
     <None Include="DCTerms.owl" />
@@ -50,11 +49,6 @@
     <None Include="SKOS.rdf" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Api.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Api.tt</DependentUpon>
-    </Compile>
     <Compile Include="Bibo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -111,11 +105,6 @@
     <Compile Include="NonGenerated\Xsd.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Api.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Api.cs</LastGenOutput>
-      <DependentUpon>Api.owl</DependentUpon>
-    </Content>
     <Content Include="Bibo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Bibo.cs</LastGenOutput>
