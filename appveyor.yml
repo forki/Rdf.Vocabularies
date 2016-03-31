@@ -13,3 +13,10 @@ after_build:
   
 artifacts:
   - path: 'nugets\*.nupkg'
+  
+deploy:
+  - provider: Environment
+    name: NuGet
+    on:
+      branch: /v\d\.\d(\.\d)?/
+      appveyor_repo_tag: true
