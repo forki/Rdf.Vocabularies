@@ -31,3 +31,7 @@ using Vocab;
 
 var rdfsLabel = Rdfs.label;
 ```
+
+## Building
+
+To build [Modeling SDK for Microsoft Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48148) must be installed.
