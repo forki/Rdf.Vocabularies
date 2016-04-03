@@ -2,7 +2,7 @@ install:
   - choco install gitversion.portable -pre -y
   
 before_build:  
-  - .paket\paket.bootstrapper.exe prerelease
+  - .paket\paket.bootstrapper.exe
   - .paket\paket.exe restore
   - ps: gitversion /l console /output buildserver
   - ps: $exePath = "$env:USERPROFILE\vs_vmsdk.exe"
@@ -21,5 +21,5 @@ deploy:
   - provider: Environment
     name: NuGet
     on:
-      branch: /v\d\.\d(\.\d)?/
+      branch: master
       appveyor_repo_tag: true
