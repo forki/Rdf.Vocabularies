@@ -5,6 +5,9 @@ before_build:
   - .paket\paket.bootstrapper.exe prerelease
   - .paket\paket.exe restore
   - ps: gitversion /l console /output buildserver
+  - ps: $exePath = "$env:USERPROFILE\vs_vmsdk.exe"
+  - ps: (New-Object Net.WebClient).DownloadFile('https://download.microsoft.com/download/0/B/0/0B05CE52-5C57-46E9-8C27-C5C4DF10C8C0/vs_vmsdk.exe', $exePath)
+  - ps: cmd /c start "$exePath" /q
 
 configuration: Release
 
