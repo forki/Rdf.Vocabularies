@@ -26,12 +26,6 @@ namespace Vocab
         /// </summary>
         public const string BaseUri="http://schema.org/";
 
-        
-        /// <summary>
-        /// The most generic type of item.
-        /// </summary>
-        public const string Thing = BaseUri + "Thing";
-
 		
         /// <summary>
         /// A museum.
