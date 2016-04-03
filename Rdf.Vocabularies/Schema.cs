@@ -28,6 +28,12 @@ namespace Vocab
 
         
         /// <summary>
+        /// The most generic type of item.
+        /// </summary>
+        public const string Thing = BaseUri + "Thing";
+
+		
+        /// <summary>
         /// A museum.
         /// </summary>
         public const string Museum = BaseUri + "Museum";
