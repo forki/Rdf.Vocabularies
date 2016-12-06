@@ -8,7 +8,7 @@ Statically typed RDF Vocabularies for .NET. Most generated automatically from re
 * `dc` - [Dublin Core Metadata Element Set](http://lov.okfn.org/dataset/lov/vocabs/dce)
 * `dcterms` - [DCMI Metadata Terms](http://lov.okfn.org/dataset/lov/vocabs/dcterms)
 * `foaf` - [Friend of a Friend Vocabulary](http://lov.okfn.org/dataset/lov/vocabs/foaf)
-* `Hyda` - [A lightweight vocabulary for hypermedia-driven Web APIs](http://www.hydra-cg.com/)
+* `Hydra` - [A lightweight vocabulary for hypermedia-driven Web APIs](http://www.hydra-cg.com/)
 * `opus` - [Ontology of Computer Science Publications](http://lov.okfn.org/dataset/lov/vocabs/opus)
 * `owl` - [Ontology Web Language](http://lov.okfn.org/dataset/lov/vocabs/owl)
 * `rdf` - [The RDF Concepts Vocabulary](http://lov.okfn.org/dataset/lov/vocabs/rdf)
