@@ -2,4 +2,4 @@ source https://www.nuget.org/api/v2/
 
 nuget GitVersionTask
 
-http https://gist.githubusercontent.com/tpluscode/5d9c6983004c1c9ec91f/raw/f6391cdc0638a107e2e08b1b9d7fb781c5b08fc4/vocabulary.tt
+gist tpluscode/5d9c6983004c1c9ec91f

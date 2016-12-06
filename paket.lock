@@ -1,8 +1,6 @@
 NUGET
   remote: https://www.nuget.org/api/v2
-  specs:
     GitVersionTask (3.4.1)
-HTTP
-  remote: https://gist.githubusercontent.com
-  specs:
-    vocabulary.tt (/tpluscode/5d9c6983004c1c9ec91f/raw/f6391cdc0638a107e2e08b1b9d7fb781c5b08fc4/vocabulary.tt)
+GIST
+  remote: tpluscode/5d9c6983004c1c9ec91f
+    FULLPROJECT (f6391cdc0638a107e2e08b1b9d7fb781c5b08fc4)
