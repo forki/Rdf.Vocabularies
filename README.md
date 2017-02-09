@@ -1,4 +1,4 @@
-# Rdf.Vocabularies [![Build status](https://ci.appveyor.com/api/projects/status/8uepsle8g54v101m?svg=true)](https://ci.appveyor.com/project/tpluscode78631/jsonld-entities/branch/master) [![NuGet version](https://badge.fury.io/nu/rdf.vocabularies.svg)](https://badge.fury.io/nu/rdf.vocabularies) [![codefactor][codefactor-badge]][codefactor-link]
+# Rdf.Vocabularies [![Build status](https://ci.appveyor.com/api/projects/status/8uepsle8g54v101m/branch/master?svg=true)](https://ci.appveyor.com/project/tpluscode78631/rdf-vocabularies/branch/master) [![NuGet version](https://badge.fury.io/nu/rdf.vocabularies.svg)](https://badge.fury.io/nu/rdf.vocabularies) [![codefactor][codefactor-badge]][codefactor-link]
  
 ## What 
 
