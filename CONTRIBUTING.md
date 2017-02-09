@@ -19,7 +19,7 @@ To add a new vocabulary to the solution follow these steps:
   
 1. Add a command like below to `Vocabs.csx`
 
-      CreateVocabulary(Output, "ex.rdf", ontologyId: "http://example.org/vocab#", skipDefinedByCheck: true);
+        CreateVocabulary(Output, "ex.rdf", ontologyId: "http://example.org/vocab#", skipDefinedByCheck: true);
      
     Depending on the vocabulary file, you may not need the `ontologyId` and `skipDefinedByCheck` parameters. The former
     is required if the input doesn't contain a graph named like the the vocabulary. The latter is necessary if the
