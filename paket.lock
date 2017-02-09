@@ -1,6 +1,54 @@
 NUGET
   remote: https://www.nuget.org/api/v2
-    GitVersionTask (3.4.1)
-GIST
-  remote: tpluscode/5d9c6983004c1c9ec91f
-    FULLPROJECT (f6391cdc0638a107e2e08b1b9d7fb781c5b08fc4)
+    dotNetRDF (1.0.12)
+      HtmlAgilityPack (>= 1.4.9) - framework: >= net35
+      Newtonsoft.Json (>= 8.0.3) - framework: >= net35, portable-monoandroid10+monotouch10+sl4+wp8
+      VDS.Common (1.6.4) - framework: >= net35, portable-monoandroid10+monotouch10+sl4+wp8
+    HtmlAgilityPack (1.4.9.5) - framework: >= net35
+    Microsoft.CSharp (4.3) - framework: >= net35
+    Newtonsoft.Json (9.0.1) - framework: >= net35, portable-monoandroid10+monotouch10+sl4+wp8
+      Microsoft.CSharp (>= 4.0.1) - framework: >= netstandard10
+      System.Collections (>= 4.0.11) - framework: >= netstandard10
+      System.Diagnostics.Debug (>= 4.0.11) - framework: >= netstandard10
+      System.Dynamic.Runtime (>= 4.0.11) - framework: >= netstandard10
+      System.Globalization (>= 4.0.11) - framework: >= netstandard10
+      System.IO (>= 4.1) - framework: >= netstandard10
+      System.Linq (>= 4.1) - framework: >= netstandard10
+      System.Linq.Expressions (>= 4.1) - framework: >= netstandard10
+      System.ObjectModel (>= 4.0.12) - framework: >= netstandard10
+      System.Reflection (>= 4.1) - framework: >= netstandard10
+      System.Reflection.Extensions (>= 4.0.1) - framework: >= netstandard10
+      System.Resources.ResourceManager (>= 4.0.1) - framework: >= netstandard10
+      System.Runtime (>= 4.1) - framework: >= netstandard10
+      System.Runtime.Extensions (>= 4.1) - framework: >= netstandard10
+      System.Runtime.Serialization.Primitives (>= 4.1.1) - framework: >= netstandard10
+      System.Text.Encoding (>= 4.0.11) - framework: >= netstandard10
+      System.Text.Encoding.Extensions (>= 4.0.11) - framework: >= netstandard10
+      System.Text.RegularExpressions (>= 4.1) - framework: >= netstandard10
+      System.Threading (>= 4.0.11) - framework: >= netstandard10
+      System.Threading.Tasks (>= 4.0.11) - framework: >= netstandard10
+      System.Xml.ReaderWriter (>= 4.0.11) - framework: >= netstandard10
+      System.Xml.XDocument (>= 4.0.11) - framework: >= netstandard10
+    Scripty (0.5)
+    System.Collections (4.3) - framework: >= net35
+    System.Diagnostics.Debug (4.3) - framework: >= net35
+    System.Dynamic.Runtime (4.3) - framework: >= net35
+    System.Globalization (4.3) - framework: >= net35
+    System.IO (4.3) - framework: >= net35
+    System.Linq (4.3) - framework: >= net35
+    System.Linq.Expressions (4.3) - framework: >= net35
+    System.ObjectModel (4.3) - framework: >= net35
+    System.Reflection (4.3) - framework: >= net35
+    System.Reflection.Extensions (4.3) - framework: >= net35
+    System.Resources.ResourceManager (4.3) - framework: >= net35
+    System.Runtime (4.3) - framework: >= net35
+    System.Runtime.Extensions (4.3) - framework: >= net35
+    System.Runtime.Serialization.Primitives (4.3) - framework: >= net35
+    System.Text.Encoding (4.3) - framework: >= net35
+    System.Text.Encoding.Extensions (4.3) - framework: >= net35
+    System.Text.RegularExpressions (4.3) - framework: >= net35
+    System.Threading (4.3) - framework: >= net35
+    System.Threading.Tasks (4.3) - framework: >= net35
+    System.Xml.ReaderWriter (4.3) - framework: >= net35
+    System.Xml.XDocument (4.3) - framework: >= net35
+    VDS.Common (1.6.4) - framework: >= net35, portable-monoandroid10+monotouch10+sl4+wp8

@@ -1,5 +1,4 @@
 source https://www.nuget.org/api/v2/
 
-nuget GitVersionTask
-
-gist tpluscode/5d9c6983004c1c9ec91f
+nuget dotnetrdf
+nuget scripty

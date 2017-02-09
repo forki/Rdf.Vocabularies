@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "authors": [
+    "Tomasz Pluskiewicz"
+  ],
+  "description": "Statically typed classes generated from various RDF Vocabularies or OWL Ontologies",
+  "packOptions": {
+    "tags": [
+      "rdf",
+      "semantic web"
+    ],
+    "copyright": "Copyright 2016 Tomasz Pluskiewicz",
+    "projectUrl": "https://github.com/wikibus/Rdf.Vocabularies",
+    "licenseUrl": "https://raw.githubusercontent.com/wikibus/Rdf.Vocabularies/master/LICENSE.txt",
+    "iconUrl": "http://www.w3.org/RDF/icons/rdf_w3c_icon.64"
+  },
+  "tools": {
+    "dotnet-version": "1.1.0"
+  },
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
+    },
+    ".NETPortable,Version=v4.0,Profile=Profile3": {
+      "frameworkAssemblies": {
+        "mscorlib": "2.0.5.0",
+        "System": "2.0.5.0"
+      }
+    }
+  }
+}

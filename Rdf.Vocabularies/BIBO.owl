@@ -2,6 +2,7 @@
 
 <rdf:RDF
      xml:base="http://purl.org/ontology/bibo/"
+     xmlns="http://purl.org/ontology/bibo/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:status="bibo:status/"
